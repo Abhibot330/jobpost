@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulf Works</title>
+    <link rel="icon" href="images/op.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/53f80cc2f6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <body>
+        <div id="header1">
+            <div class="container1">
+                <nav>
+                    <div class="logo1">
+                        <h2><span>Gulf</span> Jobs</h2>
+                    </div>
+                    <div class="navigation ">
+                        <ul id="sidemenu">
+                            <li><a href="index.html"> Home</a></li>
+                            <li><a href="jobpost.html"> Job Post</a></li>
+                            <li><a href="Contact.html">Contact Us</a></li>
+                            <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    </div>
+                </nav>
+       
+    <div class="post">
+        <h1>Job post</h1>
+        <div class="postbox">
+            <p>You can post your documents regarding the job in the below link. </p>
+            <img src="images/jobp.png" alt="">
+
+        </div>
+        <button> <a href="https://forms.gle/CixAUHxEmniDQRWi9">Click here</a> </button>
+    </div>
+</div>
+</div>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+ </script>
+</body>
+</html>
